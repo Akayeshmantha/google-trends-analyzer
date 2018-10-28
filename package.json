@@ -1,0 +1,17 @@
+{
+    "name": "google_trends",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ayeshmantha Perera <akayeshmantha@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "google-trends-api": "^4.5.0",
+        "request": "^2.83.0",
+        "azure-storage": "^2.7.0",
+        "uuid": "^3.2.1"
+    }
+}
