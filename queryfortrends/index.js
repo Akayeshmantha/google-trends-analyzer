@@ -2,7 +2,7 @@ module.exports = function(context, req) {
     const googleTrends = require('google-trends-api');
     var storage = require('azure-storage');
     var uuid = require('uuid');
-    var connectionString = "DefaultEndpointsProtocol=https;AccountName=rockshark;AccountKey=JCPuiVhXAfR8SsfufyZSp57+Rpe04FXIvWZ0DkAWontVcCuEfYh4fGMfiCQz8+QKgTVCklULHHCe/pCcLWVliA==;EndpointSuffix=core.windows.net";
+    var connectionString = "";
     if (req.body.keyword != null) {
         var tableService = storage.createTableService(connectionString);
         var keyword = req.body.keyword;
